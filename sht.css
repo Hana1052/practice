@@ -1,0 +1,89 @@
+body{
+    background-color:#FBFBFF;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+header{
+    display: flex;
+    background-color: #040F16;
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.messageme{
+    cursor: pointer;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_container{
+    display: flex;
+    gap: 5px;}
+.nav__item{
+    cursor: pointer;
+    list-style-type: none;
+    transition: all 1s cubic-bezier(0.99, 0.06, 0, 0.87);
+}
+.nav__item1,.nav__item2,.nav__item3{
+    background-image: linear-gradient(360deg, #ff0015, #558abb);
+    background-clip: text;
+    color: transparent;
+}
+.nav__item1:hover{
+    color:gray;
+    text-shadow:0px 0px 20px rgb(255, 255, 255), -13px -13px 0px #558abb, -13px 13px #ff0015;
+}
+.nav__item2:hover{
+    color:gray;
+    text-shadow:0px 0px 20px rgb(255, 255, 255), 0px -13px 0px #558abb, 0px 13px #ff0015;
+}
+.nav__item3:hover{
+    color:gray;
+    text-shadow:0px 0px 20px rgb(255, 255, 255), 13px -13px 0px #558abb, 13px 13px #ff0015;
+}
+.web_main_logo{
+    color: transparent;
+    margin-left: 9px;
+    height: 40px; 
+}
+.tele-logo,.insta-logo{
+    height: 30px;
+    width: 30px;
+    background-image: linear-gradient(360deg, #ff0015, #558abb);
+    border-radius: 5px;
+    color: transparent;
+}
+.insta-logo:hover,.tele-logo:hover{
+    background-image: linear-gradient(360deg, #ff0000, #4863c3);
+    border-radius: 5px;
+    color: transparent;
+}
+.do_nothing_button{
+    color: #4863c3;
+    border-radius: 0%;
+    border: 1px;
+    margin-top: 60px;
+    height: 15rem;
+    width: 15rem;
+}
+.do_nothing_button:active{
+    background-color: #d4d2d2;
+    transform: scale(0.9);
+    box-shadow:inset 0px 0px 20px 2px rgb(54 54 54);
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
